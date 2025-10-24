@@ -6,6 +6,7 @@ require('dotenv').config();
 
 const predictionRoutes = require('./routes/prediction');
 const healthRoutes = require('./routes/health');
+const deeplearningRoutes = require('./routes/deeplearning');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -19,6 +20,7 @@ app.use(morgan('dev'));
 // Routes
 app.use('/api/health', healthRoutes);
 app.use('/api/predict', predictionRoutes);
+app.use('/api/deeplearning', deeplearningRoutes);
 
 // Root endpoint
 app.get('/', (req, res) => {
@@ -28,7 +30,8 @@ app.get('/', (req, res) => {
     endpoints: {
       health: '/api/health',
       predict: '/api/predict/:subject',
-      subjects: '/api/predict/subjects'
+      subjects: '/api/predict/subjects',
+      deeplearning: '/api/deeplearning (Grade A Prediction with Recommendations)'
     }
   });
 });
@@ -62,5 +65,6 @@ app.listen(PORT, () => {
   console.log(`   GET  http://localhost:${PORT}/api/health`);
   console.log(`   GET  http://localhost:${PORT}/api/predict/subjects`);
   console.log(`   POST http://localhost:${PORT}/api/predict/:subject`);
+  console.log(`   POST http://localhost:${PORT}/api/deeplearning (Deep Learning Grade A Prediction)`);
   console.log('='.repeat(60));
 });
