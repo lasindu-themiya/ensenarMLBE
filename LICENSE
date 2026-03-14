@@ -1,0 +1,26 @@
+Copyright (c) 2026 Lasindu Themiya Anuththara & Ensenar
+All Rights Reserved.
+
+# END-USER LICENSE AGREEMENT AND COPYRIGHT NOTICE
+
+This software and its associated documentation (the "Software") are the proprietary property of Lasindu Themiya Anuththara and the Ensenar team. 
+
+## 1. GRANT OF LICENSE
+No permissions are granted to use, modify, copy, distribute, or publicly perform/display this Software, either in source code or binary form. 
+
+## 2. PUBLIC REPOSITORY HOSTING
+This repository is hosted publicly on GitHub for demonstration, portfolio, and educational viewing purposes only. 
+By viewing this repository, you agree that:
+- You may view the source code for personal inspection.
+- You may use the built-in "Fork" feature provided by GitHub, solely in accordance with GitHub's Terms of Service.
+- You may NOT use this code, in whole or in part, for any personal, internal, or commercial project.
+- You may NOT distribute, publish, or sublicense this code. 
+- You may NOT use this code to train machine learning models without explicit written permission.
+
+## 3. INTELLECTUAL PROPERTY
+The Ensenar platform, including its backend (EnsenarBE), frontend (EnsenarFrontEnd), mobile application (EnsenarMobile), desktop monitoring agent (EnsenarAgent), machine learning models (ensenarML), and overall system architecture, is the intellectual property of the copyright holder.
+
+## 4. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For licensing inquiries, commercial usage, or requests for permission, please contact: Lasindu Themiya Anuththara (Ensenar Team)
